@@ -1,0 +1,9 @@
+@charset "UTF-8";
+.checkbox {
+}
+input[type="checkbox"] {
+    content: url(../Images/fashion/img002.jpg);
+}
+input[type="checkbox"]:checked {
+    content: url(different image here);
+}

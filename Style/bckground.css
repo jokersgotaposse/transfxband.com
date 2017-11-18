@@ -1,0 +1,8 @@
+@charset "UTF-8";
+.bckground {
+	background-image: url(../Images/fashion/img005.jpg);
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: -100;
+	left: 0px;
+}
