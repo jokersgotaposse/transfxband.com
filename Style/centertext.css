@@ -34,13 +34,8 @@ body { margin: 0; padding: 0; }
 .content {
     padding:150px 50px;
     color:#fff;
-    text-align:left;
+    text-align:center;
 }
-
-.centertext {
-	padding:150px 50px;
-    color:#fff;
-    text-align:center;}
 
 .avatar {
     height: 120px;
@@ -49,4 +44,6 @@ body { margin: 0; padding: 0; }
     border: 5px solid #fff;
     margin-bottom:50px;
 }/* CSS Document */
+
+
 
