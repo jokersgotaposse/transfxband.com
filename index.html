@@ -14,82 +14,79 @@
 <meta property="og:title" content="TransFX">
 <meta property="og:description" content="TransFX tourdates, music, merchandise">
 
-
 <link rel="shortcut icon" href="/favicon.ico">
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,600,700">
-<link rel="stylesheet" href="/css/normalize.css">
-<link rel="stylesheet" href="/css/main.css">
-<link rel="stylesheet" type="text/css" href="Style/container.css"/>
-<link rel="stylesheet" type="text/css" href="Style/footer.css"/>
-<link rel="stylesheet" type="text/css" href="Style/header.css"/>
-<link href="Style/tracks.css" rel="stylesheet" type="text/css" />
-<link href="Style/tracks2.css" rel="stylesheet" type="text/css" />
-<link href="Style/container2.css" rel="stylesheet" type="text/css" />
-<link href="Style/background.css" rel="stylesheet" type="text/css" />
-<link href="Style/fsbg.css" rel="stylesheet" type="text/css" />
-<link href="Style/videoplayer.css" rel="stylesheet" type="text/css" />
-<link href="Style/blurred-image-container.css" rel="stylesheet" type="text/css" />
-<link href="Style/links.css" rel="stylesheet" type="text/css" />
-<link href="Style/links2.css" rel="stylesheet" type="text/css" />
-<style type="text/css">
-body,td,th {
-	font-family: "Times New Roman", Times, serif;
-}
-a:link {
-	text-decoration: none;
-	color: #000;
-}
-a:visited {
-	text-decoration: none;
-	color: #000000;
-}
-a:hover {
-	text-decoration: underline;
-	color: #036;
-}
-a:active {
-	text-decoration: none;
-	color: #00F;
-}
-</style>
-
-<style type="text/css">
-a {
-	color: #FFF;
-}
-</style>
-<link href="Style/mslcfont.css" rel="stylesheet" type="text/css" />
-<link href="Style/mysweet.css" rel="stylesheet" type="text/css" />
-<link href="Style/fontatfront.css" rel="stylesheet" type="text/css" />
-<style>
-.fixed-ratio-resize { /* basic responsive img */
-	max-width: 1500px;
-	height: auto;
-	width: 1500px; /* IE8 */
-}
-.tracks p {
-	font-size: 14px;
-}
-.fullcontainer {
-	max-width: 1500px;
-	height: auto;
-	width: 1500px;
-}
-</style>
-<style>
-.background {
-	background-image: url(http://transfxband.com/images/hesgotagunRED.jpg);
-	background-repeat: inherit;	
-}
-</style>
-
-<link href="Style/linksdfa.css" rel="stylesheet" type="text/css" />
 
 
+
+<link rel="stylesheet" type="text/css" href="Style/scroll.css"/>
+
+
+<script type="text/javascript" src=".js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src=".js/scroll.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $(window).scroll(function(e) {
+        var s = $(window).scrollTop(),
+            opacityVal = (s / 200);
+
+        $('.blurred-image').css('opacity', opacityVal);
+    });
+});
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="Style/background.css"/>
+<link rel="stylesheet" type="text/css" href="Style/animate.css"/>
+<link rel="stylesheet" type="text/css" href="Style/styles.css"/>
 
 </head>
- <img src="images/hesgotagunRED.jpg" width="1600" height="1674" longdesc="http://transfxband.com/background" />
 
- mic check 1 2
+<body>
+
+<div class="layout-foreground">
+    <div id="blurred-image-container">
+        <div class="img-src"></div>
+        <div class="img-src blurred-image"></div>
+    </div>
+    <div class="content">
+        <img class="avatar" src="images/hesgotagunRED.jpg" />
+        <p>This is some test content</p>
+        <p>This is some test content</p>
+        <p>This is some test content</p>
+        <p>This is some test content</p>
+        <p>This is some test content</p>
+        <p>This is some test content</p>
+        <p>This is some test content</p>
+        <p>This is some test content</p>
+        <p>This is some test content</p>
+        <p>This is some test content</p>
+        <p>This is some test content</p>
+        <p>This is some test content</p>
+        <p>This is some test content</p>
+        <p>This is some test content</p>
+        <p>This is some test content</p>
+        <p>This is some test content</p>
+        <p>This is some test content</p>
+        <p>This is some test content</p>
+        <p>This is some test content</p>
+        <p>This is some test content</p>
+        <p>This is some test content</p>
+        <p>This is some test content</p>
+        <p>This is some test content</p>
+        <p>This is some test content</p>
+        <p>This is some test content</p>
+        <p>This is some test content</p>
+        <p>This is some test content</p>
+        <p>This is some test content</p>
+        <p>This is some test content</p>
+    </div>
+</div>
+ <img src="images/hesgotagunRED.jpg" width="1600" height="1674" longdesc="http://transfxband.com/background" />
+ <img src="images/hesgotagunRED.jpg" width="1600" height="1674" longdesc="http://transfxband.com/background" />
+ 
+
+
+
 </body>
 </html>
