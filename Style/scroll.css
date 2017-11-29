@@ -1,11 +1,13 @@
 body { margin: 0; padding: 0; }
 
 #blurred-image-container {
-    display:block;
+	width:150%;
+	height:auto;
+	display:block;
     padding:0;
     position:fixed;
     top:0;
-    bottom:-300px;
+    bottom:0;
     left:0;
     right:0;
     z-index:-1;
@@ -13,22 +15,22 @@ body { margin: 0; padding: 0; }
 
 .img-src { 
     position: absolute;
-    background: url(http://transfxband.com/images/hesgotagunREDbackground.jpg);
-    background-size: cover;
-    top: -10%;
-    bottom: 10%;
-    left: -10%;
-    right: 10%;
-    width:120%;
-    height:120%;
+	background: url(http://transfxband.com/images/hesgotagunREDbackground.jpg);
+	background-size: cover;
+	top: -10%;
+	bottom: 10%;
+	left: -10%;
+	right: 10%;
+	width: 120%;
+	height: 120%;
 }
 
 .img-src.blurred-image {
-    opacity:90;
+    opacity:20;
     -webkit-filter: blur(20px) brightness(0.7);
     -ms-filter: blur(20px) brightness(0.7);
-    -o-filter: blur(20px) brightness(0.7);
-    filter: blur(20px) brightness(70.00);
+    -o-filter: blur(20px) brightness(10.7);
+    filter: blur(20px) brightness(30.00);
 }
 
 .content {
@@ -43,6 +45,7 @@ body { margin: 0; padding: 0; }
     text-align:center;}
 
 .avatar {
+	position: fixed;
     height: 120px;
     width: 120px;
     border-radius: 100%;
