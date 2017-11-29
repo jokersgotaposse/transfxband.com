@@ -16,7 +16,7 @@ body { margin: 0; padding: 0; }
     background: url(http://transfxband.com/images/hesgotagunREDbackground.jpg);
     background-size: cover;
     top: -10%;
-    bottom: -20%;
+    bottom: 10%;
     left: -10%;
     right: 10%;
     width:120%;
@@ -28,7 +28,7 @@ body { margin: 0; padding: 0; }
     -webkit-filter: blur(20px) brightness(0.7);
     -ms-filter: blur(20px) brightness(0.7);
     -o-filter: blur(20px) brightness(0.7);
-    filter: blur(20px) brightness(30.00);
+    filter: blur(20px) brightness(70.00);
 }
 
 .content {
