@@ -31,13 +31,16 @@ body { margin: 0; padding: 0; }
 	-ms-filter: blur(20px) brightness(0.7);
 	-o-filter: blur(20px) brightness(0.7);
 	filter: blur(20px) brightness(30.00);
-	visibility: inherit;	
+	transition: ease-out;
+	
 }
 
 .content {
     padding:150px 50px;
     color:#fff;
     text-align:left;
+	transition: ease-out;
+	transition: ease-out;
 }
 
 .centertext {
