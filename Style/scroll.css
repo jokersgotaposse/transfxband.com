@@ -26,8 +26,8 @@ body { margin: 0; padding: 0; }
 }
 
 .img-src.blurred-image {
-    opacity:0;
-    -webkit-filter: blur(20px) brightness(30.7);
+    opacity:-10;
+    -webkit-filter: blur(20px) brightness(0.7);
     -ms-filter: blur(20px) brightness(0.7);
     -o-filter: blur(20px) brightness(0.7);
     filter: blur(20px) brightness(30.00);
