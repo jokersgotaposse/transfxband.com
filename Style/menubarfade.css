@@ -1,0 +1,77 @@
+body { margin: 0; padding: 0; }
+
+#blurred-image-container2 {
+	width:150%;
+	height:auto;
+	display:block;
+    padding:0;
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:-1;
+}
+
+
+
+.img-src2 { 
+    position: absolute;
+	background: url(http://transfxband.com/images/hesgotagunREDbackground.jpg);
+	background-size: cover;
+	top: -10%;
+	bottom: 10%;
+	left: -10%;
+	right: 10%;
+	width: 120%;
+	height: 120%;
+	
+}
+
+
+.img-src2.blurred-image {
+	opacity: 100;
+	-webkit-filter:  brightness(0.7);
+	-ms-filter:  brightness(0.7);
+	-o-filter:  brightness(0.7);
+	filter:  blur(20px) brightness(200.7);
+	
+	
+	
+}
+
+.content {
+	padding: 150px 50px;
+	color: #000;
+	text-align: left;
+	transition: ease-out;
+	transition: ease-out;
+}
+
+.centertext {
+	padding:150px 50px;
+    color:#fff;
+    text-align:center;
+	transition: ease-out;
+	transition: ease-out;
+	}
+
+.avatar {
+	position: fixed;
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    border: 5px solid #fff;
+    margin-bottom:50px;
+}
+
+.logo {
+	position: absolute;
+	height: 75%;
+	width: 75%;
+	
+	margin-left: 50%;
+	margin-top: 45%;   
+	
+	
+	}
