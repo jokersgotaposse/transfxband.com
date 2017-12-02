@@ -2,7 +2,8 @@ body { margin: 0; padding: 0; }
 
 #blurred-image-container {
 
-	width:150%;
+	width:150%; 
+	
 	height:auto;
 	display:block;
     padding:0;
@@ -72,7 +73,8 @@ body { margin: 0; padding: 0; }
 	width: 75%;
 	
 	margin-left: 50%;
-	margin-top: 45%;   
+	margin-top: 45%; 
+	z-index: -1; position: relative;  
 	
 	
 	}/* CSS Document */

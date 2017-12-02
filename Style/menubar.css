@@ -7,7 +7,10 @@ body {margin:0;}
 	background-color: #000;
 	position: fixed;
 	right: 0px; 
-	width: 100%; 
+	width: 100%;
+	display: none;
+	
+	
 }
 
 .topnav a {
@@ -17,6 +20,8 @@ body {margin:0;}
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+
+  
 }
 
 .topnav a:hover {

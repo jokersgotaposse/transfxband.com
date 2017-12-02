@@ -15,10 +15,11 @@
 }
 #spin{
 	position: absolute;
-	top: 2000px;
-	left: 10%;
+	top: 600px;
+	left: 8%;
 	width: 600px;
 	height: auto;
+	z-index: -1; position: relative;
 	-webkit-animation-name: spinnerRotate;
 	-webkit-animation-duration: 5s;
 	-webkit-animation-iteration-count: infinite;
