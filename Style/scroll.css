@@ -2,8 +2,7 @@ body { margin: 0; padding: 0; }
 
 #blurred-image-container {
 
-	width:150%; 
-	
+	width:100vw; 
 	height:auto;
 	display:block;
     padding:0;
@@ -12,14 +11,14 @@ body { margin: 0; padding: 0; }
     bottom:0;
     left:0;
     right:0;
-    z-index:-1;
+    z-index:-5;
 }
 
 
 
 .img-src { 
     position: absolute;
-	background: url(http://transfxband.com/images/hesgotagunREDbackground.jpg);
+	background: url(http://transfxband.com/images/hesgotagunREDbackgroundcropped.jpg);
 	background-size: cover;
 	top: -10%;
 	bottom: 10%;
@@ -43,38 +42,42 @@ body { margin: 0; padding: 0; }
 }
 
 .content {
-	padding: 150px 50px;
+	padding: 1% 50px;
 	color: #000;
 	text-align: left;
 	transition: ease-out;
 	transition: ease-out;
+	z-index: 0; 
 }
 
 .centertext {
 	padding:150px 50px;
     color:#fff;
-    text-align:center;
+    text-align:50vw;
 	transition: ease-out;
 	transition: ease-out;
+	z-index: 0; 
 	}
 
 .avatar {
 	position: fixed;
-    height: 120px;
-    width: 120px;
+    height: 3vw;
+    width: 3vw;
     border-radius: 100%;
     border: 5px solid #fff;
-    margin-bottom:50px;
+    left: 95vw;
+	top:5px;
+	z-index:6;
+	display:block;
 }
 
 .logo {
 	position: absolute;
-	height: 75%;
-	width: 75%;
-	
+	height: auto;
+	width: 45vw;
 	margin-left: 50%;
-	margin-top: 45%; 
-	z-index: -1; position: relative;  
+	top: 80vw; 
+	z-index: 1;   
 	
 	
 	}/* CSS Document */
