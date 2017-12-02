@@ -42,12 +42,13 @@ body { margin: 0; padding: 0; }
 }
 
 .content {
-	padding: 1% 50px;
+	
 	color: #000;
 	text-align: left;
 	transition: ease-out;
 	transition: ease-out;
 	z-index: 0; 
+	right: 93vw;
 }
 
 .centertext {
@@ -65,7 +66,7 @@ body { margin: 0; padding: 0; }
     width: 3vw;
     border-radius: 100%;
     border: 5px solid #fff;
-    left: 95vw;
+    right: 95vw;
 	top:5px;
 	z-index:6;
 	display:block;
