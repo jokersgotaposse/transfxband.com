@@ -31,7 +31,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-
+<link rel="stylesheet" type="text/css" href="Style/container.css"/>
 <link rel="stylesheet" type="text/css" href="Style/menubarfade.css"/>
 <link rel="stylesheet" type="text/css" href="Style/menubar.css"/>
 <link rel="stylesheet" type="text/css" href="Style/main.css"/>
@@ -66,18 +66,18 @@ $(document).ready(function() {
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-
+<div id="topnav">
 <div class="topnav">
   <a class="active" href="#home">Home</a>
   <a href="#news">News</a>
   <a href="#contact">Contact</a>
   <a href="#about">About</a>
-  <a href="http://transfxband.com/songs/Jest Sane[FINAL ASSEMBLY]08.m4a" class="audio sm2_link sm2_paused"><img src="images/playbutton.png" ; width= "4%" ; height= "auto" /></a>
+  <a href="http://transfxband.com/songs/Jest Sane[FINAL ASSEMBLY]08.m4a" class="audio sm2_link sm2_paused"><img src="images/playbutton.png" ; width= "4%" ;  height= "auto" /></a>
     
   
 </div>
 
-
+</div>
 
 
 <div class="layout-foreground">
@@ -183,6 +183,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script type="text/javascript" src="javascript/jquery-1.10.2.js"></script>
 <script type="text/javascript" src="javascript/soundmanager2-jsmin.js"></script>
 <script type="text/javascript" src="javascript/inlineplayer.js"></script>
+<script type="text/javascript" src="javascript/jquery-latest.js"></script>
+<script type="text/javascript">
+(function($) {          
+    $(document).ready(function(){                    
+        $(window).scroll(function(){                          
+            if ($(this).scrollTop() > 200) {
+                $('#topnav').fadeIn(500);
+            } else {
+                $('#topnav').fadeOut(500);
+            }
+        });
+    });
+})(jQuery);
+</script>
 
 </body>
 </html>
