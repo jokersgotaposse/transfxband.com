@@ -123,26 +123,6 @@ header {
     padding-bottom: 20px;
 }
 
-nav {
-    padding: 10px 0;
-    border-top: double 3px #666;
-    border-bottom: double 3px #666;
-    font-size: 14px;
-    text-transform: uppercase;
-}
-nav a {
-    color: #fff;
-    text-decoration: none;
-    opacity: .3;
-    margin: 0 8px;
-}
-nav a:hover {
-    opacity: .6;
-}
-nav a.on {
-    opacity: .9;
-    border-bottom: 1px solid #fff;
-}
 
 h1 {
     font-size: 40px;
