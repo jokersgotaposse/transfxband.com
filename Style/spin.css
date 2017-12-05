@@ -14,8 +14,9 @@
     to{-ms-transform:rotate(360deg);}
 }
 #spin{
+
 	
-	position: relative;
+	position: absolute;
 	top: 75vw;
 	left: 8%;
 	width: 45%;
