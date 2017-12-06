@@ -114,10 +114,43 @@ a, a:visited {
     color: #fff;
 }
 
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
+#topnav {
+	
+	overflow: hidden;
+	background-color: #000;
+	position: fixed;
+	right: 0px; 
+	width: 100%;
+	height: 3vw;
+	display: none;
+	z-index: 5;
+	
+	
+	
 }
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 2px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  height: 3vw;
+
+  
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #B9DCFF;
+  color: white;
+}
+
 
 header {
     padding-bottom: 20px;
@@ -125,7 +158,7 @@ header {
 
 
 h1 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: normal;
     margin: 10px auto;
 }
@@ -137,6 +170,78 @@ main.loading {
 main.loading * {
     display: none;
 }
+
+#blurred-image-container {
+
+	width:100vw; 
+	height:auto;
+	display:block;
+    padding:0;
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:-5;
+}
+
+
+
+.img-src { 
+    position: absolute;
+	background: url(http://transfxband.com/images/hesgotagunREDbackgroundcropped.jpg);
+	background-size: cover;
+	top: -10%;
+	bottom: 10%;
+	left: -10%;
+	right: 10%;
+	width: 120%;
+	height: 120%;
+	
+}
+
+
+.img-src.blurred-image {
+	opacity: 0;
+	-webkit-filter:  brightness(0.7);
+	-ms-filter:  brightness(0.7);
+	-o-filter:  brightness(0.7);
+	filter:  blur(20px) brightness(200.7);
+	
+	
+	
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+	width: relative;
+}
+.content {
+    padding:150px 50px;
+    color:#fff;
+    text-align:center;
+	z-index:0;
+}
+
+.avatar {
+    height: 2vw; 
+    width: 2vw;
+    border-radius: 100%;
+    border: 5px solid #fff;
+   
+}
+
+.logo{
+	
+	position: absolute;
+	z-index: 3;
+	top: 80vw;
+	left: 45vw;
+	
+}
+
+
 
 .grid-sizer,
 .item {
@@ -261,9 +366,10 @@ body #sm2-container embed {
 }
 
 footer {
-    border-top: double 3px #666;
+    border-top: double 3px #666;	
     padding-top: 20px;
     font-size: 11px;
+	color: #000;
 }
 footer strong {
     font-size: 14px;
@@ -304,7 +410,45 @@ footer strong {
        width: 0;
     }
 }
+@-webkit-keyframes spinnerRotate
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(360deg);}
+}
 
+@-moz-keyframes spinnerRotate
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(360deg);}
+}
+@-ms-keyframes spinnerRotate
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(360deg);}
+}
+#spin{
+
+	
+	position: absolute;
+	top: 75vw;
+	left: 8vw;
+	width: 45vw;
+	height: auto;
+	z-index: 0; position: absolute;
+	-webkit-animation-name: spinnerRotate;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: spinnerRotate;
+	-moz-animation-duration: 5s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-ms-animation-name: spinnerRotate;
+	-ms-animation-duration: 5s;
+	-ms-animation-iteration-count: infinite;
+	-ms-animation-timing-function: linear;
+	
+}
 
 /* ==========================================================================
    Helper classes
