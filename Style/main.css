@@ -119,7 +119,8 @@ a, a:visited {
 	overflow: hidden;
 	background-color: #000;
 	position: fixed;
-	right: 0px; 
+	right: 0px;
+	top: 0px; 
 	width: 100%;
 	height: 3vw;
 	display: none;
@@ -161,6 +162,11 @@ h1 {
     font-size: 30px;
     font-weight: normal;
     margin: 10px auto;
+	color: #000;
+}
+
+h2 {
+	color: #000;
 }
 
 main.loading {
@@ -213,7 +219,6 @@ main.loading * {
 }
 
 .container {
-    max-width: 1000px;
     margin: 0 auto;
 	width: relative;
 }
@@ -241,6 +246,11 @@ main.loading * {
 	
 }
 
+slider{
+	
+	left:45vw;
+	
+}
 
 
 .grid-sizer,
@@ -366,7 +376,7 @@ body #sm2-container embed {
 }
 
 footer {
-    border-top: double 3px #666;	
+	top: 100%;
     padding-top: 20px;
     font-size: 11px;
 	color: #000;
@@ -431,7 +441,7 @@ footer strong {
 	
 	position: absolute;
 	top: 75vw;
-	left: 8vw;
+	left: 1vw;
 	width: 45vw;
 	height: auto;
 	z-index: 0; position: absolute;
