@@ -212,7 +212,7 @@ main.loading * {
 	-webkit-filter:  brightness(0.7);
 	-ms-filter:  brightness(0.7);
 	-o-filter:  brightness(0.7);
-	filter:  blur(20px) brightness(200.7);
+	filter:  blur(20px) brightness(-200.7);
 	
 	
 	
