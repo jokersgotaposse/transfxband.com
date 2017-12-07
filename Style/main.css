@@ -195,7 +195,7 @@ main.loading * {
 
 .img-src { 
     position: absolute;
-	background: url(http://transfxband.com/images/transfixbrokenglassLPCOVER.jpg);
+	background: url(http://transfxband.com/images/transfixbrokenglassLPCOVERsun.jpg);
 	background-size: cover;
 	top: -10%;
 	bottom: 10%;
@@ -238,12 +238,13 @@ main.loading * {
 }
 
 .logo{
-	
 	position: absolute;
 	z-index: 3;
-	top: 130vw;
-	left: 45vw;
-	
+	top: 80vw;
+	left: 10px;
+	right: auto;
+	width: 100%;
+	height: auto;
 }
 
 slider{
@@ -440,8 +441,9 @@ footer strong {
 
 	
 	position: absolute;
-	top: 120vw;
+	top: 160vw;
 	left: 1vw;
+	right: auto;
 	width: 45vw;
 	height: auto;
 	z-index: 0; position: absolute;
@@ -649,5 +651,3 @@ footer strong {
         page-break-after: avoid;
     }
 }
-
-
