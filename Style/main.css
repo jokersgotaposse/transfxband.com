@@ -195,7 +195,7 @@ main.loading * {
 
 .img-src { 
     position: absolute;
-	background: url(http://transfxband.com/images/hesgotagunREDbackgroundcropped.jpg);
+	background: url(http://transfxband.com/images/transfixbrokenglassLPCOVER.jpg);
 	background-size: cover;
 	top: -10%;
 	bottom: 10%;
@@ -241,7 +241,7 @@ main.loading * {
 	
 	position: absolute;
 	z-index: 3;
-	top: 80vw;
+	top: 130vw;
 	left: 45vw;
 	
 }
@@ -440,7 +440,7 @@ footer strong {
 
 	
 	position: absolute;
-	top: 75vw;
+	top: 120vw;
 	left: 1vw;
 	width: 45vw;
 	height: auto;
