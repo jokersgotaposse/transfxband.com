@@ -195,14 +195,14 @@ main.loading * {
 
 .img-src { 
     position: absolute;
-	background: url(http://transfxband.com/images/transfixbrokenglassLPCOVERsun.jpg);
+	background: url(http://transfxband.com/images/ChrisFashionShoot_JGAP061.jpg);
 	background-size: cover;
-	top: -10%;
+	top: -70%;
 	bottom: 10%;
 	left: -10%;
 	right: 10%;
-	width: 120%;
-	height: 120%;
+	width: 120vw;
+	height: 120vw;
 	
 }
 
@@ -224,9 +224,9 @@ main.loading * {
 }
 .content {
     padding:150px 50px;
-    color:#fff;
+    visibility: hidden;
     text-align:center;
-	z-index:0;
+	z-index:-5;
 }
 
 .avatar {
@@ -245,12 +245,6 @@ main.loading * {
 	right: auto;
 	width: 100%;
 	height: auto;
-}
-
-slider{
-	
-	left:45vw;
-	
 }
 
 
@@ -441,7 +435,7 @@ footer strong {
 
 	
 	position: absolute;
-	top: 160vw;
+	top: 105vw;
 	left: 1vw;
 	right: auto;
 	width: 45vw;
