@@ -60,6 +60,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     	<a href="#contact">STORE</a>
 	</nav>
 </nav>
+<div class="sm2-bar-ui fixed full-width"> 
+
+
+
+</div>
 
 <main class="container">    
     <aside class="content"> 
@@ -172,16 +177,19 @@ $(document).ready(function() {
 });
 </script>
 <script type="text/javascript" src="javascript/imageslider.js"></script>
-<script type="text/javascript" src="javascript/soundmanager2-jsmin.js"></script>
-<script src="soundmanager2.js"></script>
+<script type="text/javascript" src="http://transfxband.com/javascript/soundmanager2-jsmin.js"></script>
 <script>
 soundManager.setup({
-  url: '/path/to/swf-files/',
-  flashVersion: 9, // optional: shiny features (default = 8)
-  // optional: ignore Flash where possible, use 100% HTML5 mode
-  // preferFlash: false,
+  url: 'http://transfxband.com/soundmanagerv297a-20170601/swf/soundmanager2.swf',
   onready: function() {
-    // Ready to use; soundManager.createSound() etc. can now be called.
+    var mySound = soundManager.createSound({
+      id: 'aSound',
+      url: '/path/to/an.mp3'
+    });
+    mySound.play();
+  },
+  ontimeout: function() {
+    // Hrmm, SM2 could not start. Missing SWF? Flash blocked? Show an error, etc.?
   }
 });
 </script>
