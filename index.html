@@ -130,13 +130,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<figure id="spin">
 		<a href="http://transfx.bigcartel.com/category/vinyl"><img src="images/vinylgaslitsmall.png" alt="TransFX Music. Links to band's store, selling music and art." /></a>
 	</figure>
+    
+    
     <picture id="carousel">
    
     		<img class="mySlides w3-animate-fading" src="images/transfxabby.jpg" width="1500vw" height="auto" alt="Abby of TransFX" position="absolute" top="150vw" />
    			<img class="mySlides w3-animate-fading" src="images/transfxband.jpg" width="1500vw" height="auto" alt="TransFX performing music in Olympia, WA at Obsidian 2017" position="absolute" top="150vw" />
     		<img class="mySlides w3-animate-fading" src="images/transfxdilb.jpg" width="1500vw" height="auto" alt="Dilbert of CCFX and CC Dust, playing Bass for TransFX" position="absolute" top="150vw" />
-    	
     </picture>
+    <section class="live"><img src="images/default_live.png" width="300" height="300" /></section>
 </main>
  
 
@@ -170,7 +172,19 @@ $(document).ready(function() {
 });
 </script>
 <script type="text/javascript" src="javascript/imageslider.js"></script>
-
+<script type="text/javascript" src="javascript/soundmanager2-jsmin.js"></script>
+<script src="soundmanager2.js"></script>
+<script>
+soundManager.setup({
+  url: '/path/to/swf-files/',
+  flashVersion: 9, // optional: shiny features (default = 8)
+  // optional: ignore Flash where possible, use 100% HTML5 mode
+  // preferFlash: false,
+  onready: function() {
+    // Ready to use; soundManager.createSound() etc. can now be called.
+  }
+});
+</script>
 
 </body>
 <footer> TRANSFXBAND.COM </footer>
