@@ -117,7 +117,7 @@ a, a:visited {
 #topnav {
 	
 	overflow: hidden;
-	background-color: #000;
+	background-color: transparent;
 	position: fixed;
 	right: 0px;
 	top: 0px; 
@@ -148,7 +148,7 @@ a, a:visited {
 }
 
 .topnav a.active {
-  background-color: #B9DCFF;
+  background-color: transparent;
   color: white;
 }
 
@@ -245,6 +245,21 @@ main.loading * {
 	right: auto;
 	width: 100%;
 	height: auto;
+}
+.info {
+    width: 300px;
+    height: px;
+    background: red;
+	
+}
+.caption-background {
+	height: 200px;
+    background: transparent;
+
+	
+}
+.hidden {
+    display: none;
 }
 
 .live{

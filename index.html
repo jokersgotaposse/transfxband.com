@@ -58,9 +58,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <nav class="topnav">
 	<nav id="topnav">
     	<a class="active" href="#home"><img class="avatar" src="images/TransFX_INTO THE BLUE.jpg" alt="transfx band logo"/></a>
-    	<a href="http://transfxband.com/songs/Jest Sane[FINAL ASSEMBLY]08.m4a" class="audio sm2_link sm2_paused"><img src="images/playbutton.png"; width="25px"/></a>
+    	
     	<a href="#contact">CONTACT</a>
-    	<a href="#contact">STORE</a>
+    	<a href="http://www.transfx.store">STORE</a>
 	</nav>
 </nav>
 
@@ -362,14 +362,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     		<img class="mySlides w3-animate-fading" src="images/transfxdilb.jpg" width="1500vw" height="auto" alt="Dilbert of CCFX and CC Dust, playing Bass for TransFX" position="absolute" top="150vw" />
     </picture>
     
+<section class="live">
+        
+<div class="rsABlock">
+    <img class="info" src="images/default_live.png" width="300" height="300"/>
+    <div class="caption-background"> UPCOMING EVENTS
+        
+    </div>
+</div>    
+</section>    
 
-
-    <section class="live"><img src="images/default_live.png" width="300" height="300" /></section>
 </main>
  
 
 <script type="text/javascript" src="javascript/jquery-1.10.2.js"></script>
-
+<script>
+$(function() {
+    $('.rsABlock img.info').click(function(e) {
+        e.preventDefault();
+        $('.caption-background').toggleClass('hidden');
+    });
+});
+</script>
 <script type="text/javascript" src="javascript/inlineplayer.js"></script>
 <script type="text/javascript" src="javascript/jquery-latest.js"></script>
 </script><script type="text/javascript">
