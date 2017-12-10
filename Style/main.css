@@ -179,7 +179,7 @@ main.loading * {
 
 #blurred-image-container {
 
-	width:100vw; 
+	width:100%; 
 	height:auto;
 	display:block;
     padding:0;
@@ -237,10 +237,10 @@ main.loading * {
 .logo{
 	position: absolute;
 	z-index: 3;
-	top: 80vw;
+	top: 90%;
 	left: 10px;
 	right: auto;
-	width: 100%;
+	width: 45%;
 	height: auto;
 }
 .info {
@@ -262,10 +262,10 @@ main.loading * {
 .live{
 	position: absolute;
 	z-index: 3;
-	top: 160vw;
+	top: 260%;
 	left: 10px;
 	right: auto;
-	width: 30%;
+	width: 10%;
 	height: auto;
 	
 }
@@ -382,10 +382,10 @@ footer strong {
 
 	
 	position: absolute;
-	top: 105vw;
-	left: 1vw;
+	top: 140%;
+	left: 1%;
 	right: auto;
-	width: 45vw;
+	width: 45%;
 	height: auto;
 	z-index: 0; position: absolute;
 	-webkit-animation-name: spinnerRotate;
