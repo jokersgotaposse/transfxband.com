@@ -201,10 +201,10 @@ main.loading * {
 
 .img-src { 
     position: absolute;
-	background: url(http://transfxband.com/images/ChrisFashionShoot_JGAP061.jpg);
+	background: url(http://transfxband.com/images/ChrisFashionShoot_JGAP061crop.jpg);
 	background-size: cover;
-	top: -70%;
-	bottom: 10%;
+	top: -10%;
+	bottom: -10%;
 	left: 0%;
 	right: 0%;
 	width: 120vw;
