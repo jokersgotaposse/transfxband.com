@@ -104,6 +104,9 @@ body {
     font-family: "Open Sans", sans-serif;
     font-size: 12px;
     color: #fff;
+	max-width: 970px;
+	
+	
 }
 
 strong {
@@ -240,7 +243,7 @@ main.loading * {
 	top: 90%;
 	left: 10px;
 	right: auto;
-	width: 45%;
+	width: 100%;
 	height: auto;
 }
 .info {
