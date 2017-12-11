@@ -194,7 +194,7 @@ main.loading * {
     bottom:0;
     left:0;
     right:0;
-    z-index:-5;
+    z-index:0;
 }
 
 
@@ -209,6 +209,7 @@ main.loading * {
 	right: 0%;
 	width: 120vw;
 	height: 120vw;
+	z-index:0;
 	
 }
 
