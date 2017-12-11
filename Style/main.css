@@ -244,7 +244,7 @@ main.loading * {
 .logo{
 	position: absolute;
 	z-index: 3;
-	top: 90%;
+	top: 100%;
 	left: 10px;
 	right: auto;
 	width: 100%;
