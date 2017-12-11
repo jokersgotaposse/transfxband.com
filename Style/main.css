@@ -202,8 +202,8 @@ main.loading * {
 	background-size: cover;
 	top: -70%;
 	bottom: 10%;
-	left: -10%;
-	right: 10%;
+	left: 0%;
+	right: 0%;
 	width: 120vw;
 	height: 120vw;
 	
