@@ -110,6 +110,7 @@ body {
 }
 
 .container {
+	width: 100%;
 	
 	
 	
@@ -206,7 +207,7 @@ main.loading * {
 
 
 .img-src { 
-    position: fixed;
+    position: absolute;
 	background: url(http://transfxband.com/images/ChrisFashionShoot_JGAP061crop.jpg);
 	background-size: cover;
 	top: -10%;
@@ -251,7 +252,7 @@ main.loading * {
 	position: absolute;
 	z-index: 3;
 	top: 100%;
-	left: 10px;
+	left: 5px;
 	right: auto;
 	width: 100%;
 	height: auto;
