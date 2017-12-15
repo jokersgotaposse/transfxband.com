@@ -274,7 +274,6 @@ main.loading * {
 	}
 	
 .press{
-	
 	position: absolute;
 	z-index: 3;
 	top: 230em;
@@ -282,7 +281,8 @@ main.loading * {
 	left: auto;
 	width: 50%;
 	height: auto;
-	
+	float: left;
+
 	}
 .info {
     width: 300px;
@@ -301,14 +301,18 @@ main.loading * {
 	height: auto;
 }
 	
-	}
+	
 .caption-background {
-	height: 200px;
+	height: fit;
     background: transparent;
+	z-index: 10;
+	
+	
 
 	
 }
 .hidden {
+	
     display: none;
 }
 
@@ -368,13 +372,15 @@ main.loading * {
     color: #aaa;
 }
 
-
+@charset "UTF-8";
 
 footer {
 	top: 100%;
     padding-top: 20px;
     font-size: 11px;
 	color: #000;
+	
+
 }
 footer strong {
     font-size: 14px;
