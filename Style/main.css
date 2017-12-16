@@ -110,7 +110,7 @@ body {
 }
 
 .container {
-	width: fill;
+	width: fit;
 	right:50%;
 	left: 50%;
 	
