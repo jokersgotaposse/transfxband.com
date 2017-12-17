@@ -208,8 +208,8 @@ main.loading * {
     position: fixed;
     top:0;
     bottom:-20%;
-    left:-40%;
-    right:-10%;
+    left:0%;
+    right:0%;
     z-index:0;
 }
 
@@ -219,7 +219,7 @@ main.loading * {
     position: absolute;
 	background: url(http://transfxband.com/images/ChrisFashionShoot_JGAP061crop.jpg);
 	background-size: cover;
-	top: -10%;
+	top: -25%;
 	bottom: 0%;
 	left: 0%;
 	right: 0%;
@@ -430,6 +430,12 @@ footer strong {
     .span-3 h1 {
         text-align: center;
     }
+	#blurred-image-container {
+
+    left:-20%;
+	}
+
+
 }
 
 @media screen and (max-width: 500px) {
@@ -453,6 +459,10 @@ footer strong {
     .gutter-sizer {
        width: 0;
     }
+	#blurred-image-container {
+
+    left:-30%;
+	}
 }
 @-webkit-keyframes spinnerRotate
 {
@@ -474,7 +484,7 @@ footer strong {
 
 	
 	position: absolute;
-	top: 153em;
+	top: 113em;
 	left: .7em;
 	right: 10%;
 	width: 100%;
