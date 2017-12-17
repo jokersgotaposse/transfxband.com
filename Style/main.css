@@ -105,19 +105,21 @@ body {
     font-size: 12px;
     color: #fff;
 	max-width: 970px;
+	magin: 0 0;
 	
 	
 }
 
 .container {
-	width: fit;
-	padding-right:.2em;
-	padding-left: .2em;
-	
-	
-	
+    max-width: 1000px;
+    margin: 0 auto;
 	
 }
+
+	
+	
+	
+
 
 strong {
     font-weight: 600;
@@ -137,7 +139,7 @@ a, a:visited {
 	width: 100%;
 	height: 5em;
 	display: none;
-	z-index: 5;
+	z-index: 99;
 	
 	
 	
@@ -147,7 +149,7 @@ a, a:visited {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 2px 16px;
+  padding: 2px .8em;
   text-decoration: none;
   font-size: 17px;
   height: 3em;
@@ -164,7 +166,11 @@ a, a:visited {
   background-color: transparent;
   color: white;
 }
-
+.icon {
+	width: 1em;
+	height: auto;
+	
+	}
 
 header {
     padding-bottom: 20px;
@@ -214,18 +220,20 @@ main.loading * {
 	background: url(http://transfxband.com/images/ChrisFashionShoot_JGAP061crop.jpg);
 	background-size: cover;
 	top: -10%;
-	bottom: -20%;
+	bottom: 0%;
 	left: 0%;
 	right: 0%;
 	width: 100%;
 	height: fill;
 	z-index:0;
 	
+	
 }
 
 
 .img-src.blurred-image {
 	opacity: 0;
+	
 	-webkit-filter:  brightness(0.7);
 	-ms-filter:  brightness(0.7);
 	-o-filter:  brightness(0.7);
@@ -246,6 +254,7 @@ main.loading * {
 .avatar {
     height: 4vw; 
     width: 4vw;
+	left: 90vw;
     border-radius: 100%;
     border: 5px solid #fff;
    
@@ -254,7 +263,6 @@ main.loading * {
 .logo{
 	position: absolute;
 	z-index: 3;
-	top: 100%;
 	left: 5px;
 	right: auto;
 	width: 100%;
@@ -265,36 +273,47 @@ main.loading * {
 	
 	position: absolute;
 	z-index: 3;
-	top: 230em;
-	left: 50%;
+	top: 195em;
+	
 	right: auto;
-	width: 50%;
+	left: 60%;
+	width: 20%;
+	max-width: 300px;
 	height: auto;
+	
 	
 	}
 	
 .press{
 	position: absolute;
 	z-index: 3;
-	top: 230em;
-	right: 50%;
+	top: 195em;
+	width: 20%;
+	right: 70%;
 	left: auto;
-	width: 50%;
-	height: auto;
+	max-width: 250px;
 	float: left;
+	bottom: 100px;
 
 	}
 .info {
+	z-index: 6;
     width: 300px;
-    height: px;
+    height: auto;
     background: red;
+	max-width: 300px;
+	
+	
+	
+	
+	
 	
 }
 .pictures{
 	
 	position: absolute;
 	z-index: 1;
-	top: 200%;
+	top: 75em;
 	left: 5px;
 	right: auto;
 	width: 100%;
@@ -306,6 +325,9 @@ main.loading * {
 	height: fit;
     background: transparent;
 	z-index: 10;
+	font:Georgia, "Times New Roman", Times, serif;
+	color: #FFF;
+	text-align: center;
 	
 	
 
@@ -319,11 +341,12 @@ main.loading * {
 .live{
 	position: absolute;
 	z-index: 3;
-	top: 260%;
-	left: 10px;
+	top: 100em;
+	left: 8em;
 	right: auto;
 	width: 10%;
 	height: auto;
+	
 	
 }
 
@@ -331,7 +354,15 @@ main.loading * {
 .grid-sizer,
 .item {
     margin-bottom: 10px;
-    width: 32%;
+	
+	
+    width: 100%;
+	z-index: 90;
+}
+.item2 {
+    margin-bottom: 10px;
+    width: 100%;
+	z-index: -5;
 }
 .gutter-sizer {
    width: 2%;
@@ -389,9 +420,10 @@ footer strong {
 @media screen and (max-width: 767px) {
     /* MOBILE */
     .grid-sizer,
-    .item {
-        width: 49%;
+    .item, .item2 {
+        width: 100%;
     }
+	
     .gutter-sizer {
        width: 2%;
     }
@@ -416,6 +448,7 @@ footer strong {
     .grid-sizer,
     .item {
         width: 100%;
+		
     }
     .gutter-sizer {
        width: 0;
@@ -441,12 +474,15 @@ footer strong {
 
 	
 	position: absolute;
-	top: 182em;
-	left: auto;
-	right: 30%;
-	width: fill;
+	top: 153em;
+	left: .7em;
+	right: 10%;
+	width: 100%;
+	
 	height: auto;
 	z-index: 0; position: absolute;
+	
+	
 	-webkit-animation-name: spinnerRotate;
 	-webkit-animation-duration: 5s;
 	-webkit-animation-iteration-count: infinite;
