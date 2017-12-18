@@ -98,24 +98,21 @@ textarea {
    ========================================================================== */
 
 body {
-    
+    padding: 20px;
     background: #000;
     text-align: center;
     font-family: "Open Sans", sans-serif;
     font-size: 12px;
     color: #fff;
-	
-	margin: 0 0;
+	max-width: 970px;
+	magin: 0 0;
 	
 	
 }
 
 .container {
-	
-	width: 100%;
     max-width: 1500px;
     margin: 0 auto;
-	position: relative;
 	
 }
 
@@ -435,7 +432,7 @@ footer strong {
     }
 	#blurred-image-container {
 
-   
+    left:-20%;
 	}
 	.topnav a {
   
@@ -445,7 +442,7 @@ footer strong {
   font-size: 12px;
 	}
 .container {
-    width: 100%;
+    max-width: 767px;
     
 	
 }
@@ -475,7 +472,7 @@ footer strong {
     }
 	#blurred-image-container {
 
-    
+    left:-30%;
 	}
 	.topnav a {
   
@@ -485,7 +482,7 @@ footer strong {
   font-size: 12px;
   }
   .container {
-    width: 100%;
+    max-width: 500px;
     
 	
 }
