@@ -353,9 +353,7 @@ main.loading * {
 
 .grid-sizer,
 .item {
-    margin-bottom: 10px;
-	
-	
+    margin-bottom: 10px;	
     width: 100%;
 	z-index: 90;
 }
@@ -363,6 +361,11 @@ main.loading * {
     margin-bottom: 10px;
     width: 100%;
 	z-index: -5;
+}
+.item3 {
+    margin-bottom: 10px;
+    width: 100%;
+	
 }
 .gutter-sizer {
    width: 2%;
@@ -420,10 +423,14 @@ footer strong {
 @media screen and (max-width: 767px) {
     /* MOBILE */
     .grid-sizer,
-    .item, .item2 {
+    .item,  {
         width: 100%;
+		top:150px;
     }
-	
+	.item2 {
+		width:100%;
+		top: 200px;
+		}
     .gutter-sizer {
        width: 2%;
     }
@@ -451,10 +458,7 @@ footer strong {
 
 @media screen and (max-width: 500px) {
     /* MOBILE */
-    body {
-        padding: 03.33333333333333%;
-    }
-
+  
     nav {
         font-size: 11px;
     }
@@ -465,6 +469,8 @@ footer strong {
     .grid-sizer,
     .item {
         width: 100%;
+		top: 100px;
+		
 		
     }
     .gutter-sizer {
@@ -486,6 +492,10 @@ footer strong {
     
 	
 }
+.item2 {
+		width:100%;
+		top: 80px;
+		}
 	
 }
 @-webkit-keyframes spinnerRotate
