@@ -434,6 +434,13 @@ footer strong {
 
     left:-20%;
 	}
+	.topnav a {
+  
+  text-align: left;
+  padding: 2px .4em;
+  
+  font-size: 12px;
+  }
 
 
 }
@@ -463,6 +470,14 @@ footer strong {
 
     left:-30%;
 	}
+	.topnav a {
+  
+  text-align: left;
+  padding: 2px .4em;
+  
+  font-size: 12px;
+  }
+	
 }
 @-webkit-keyframes spinnerRotate
 {
