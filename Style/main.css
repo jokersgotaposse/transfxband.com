@@ -440,8 +440,12 @@ footer strong {
   padding: 2px .4em;
   
   font-size: 12px;
-  }
-
+	}
+.container {
+    max-width: 767px;
+    
+	
+}
 
 }
 
@@ -477,6 +481,11 @@ footer strong {
   
   font-size: 12px;
   }
+  .container {
+    max-width: 500px;
+    
+	
+}
 	
 }
 @-webkit-keyframes spinnerRotate
