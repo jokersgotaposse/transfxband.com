@@ -425,11 +425,11 @@ footer strong {
     .grid-sizer,
     .item,  {
         width: 100%;
-		top:150px;
+		top:100px;
     }
 	.item2 {
 		width:100%;
-		top: 200px;
+		top: 120px;
 		}
     .gutter-sizer {
        width: 2%;
@@ -469,7 +469,7 @@ footer strong {
     .grid-sizer,
     .item {
         width: 100%;
-		top: 100px;
+		top: 60px;
 		
 		
     }
@@ -494,7 +494,7 @@ footer strong {
 }
 .item2 {
 		width:100%;
-		top: 80px;
+		top: 20px;
 		}
 	
 }
