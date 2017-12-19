@@ -528,9 +528,15 @@
 	  left: 0px;
 	  }
 	  
-
-	  
-
+.caption-background {
+ 	height: fit;
+     background: transparent;
+ 	z-index: 10;
+ 	font:Georgia, "Times New Roman", Times, serif;
+ 	color: #FFF;
+ 	text-align: center;
+	left: 2em;
+	}
  		
   	
   }
