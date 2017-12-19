@@ -552,7 +552,7 @@
     }
     .container {
 	
-     max-width: 100%;
+     width: 80%;
  	position: relative;
       
   	
@@ -565,7 +565,7 @@
 		
   .item3 {
 	  position: absolute;
-	  width: 60%;
+	  width: fill;
 	  top: 1500px;
 	  left: 0px;
 	  }
