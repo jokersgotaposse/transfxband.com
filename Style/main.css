@@ -366,15 +366,16 @@
     
      width: 100%;
  	z-index: -5;
+	top: 700px;
  }
  .item3 {
      
      width: 100%;
 	 left: 310px;
-	 top: 1700px;
-	 
- 	
+	 top: 1970px;
  }
+
+ 
  .gutter-sizer {
     width: 2%;
  }
@@ -437,7 +438,7 @@
      }
  	.item2 {
  		width:100%;
- 		top: 120px;
+ 		top: 250px;
  		}
 		
 	.item3 {
@@ -519,14 +520,17 @@
   .item2 {
   		width:100%;
   		left: 2em;
+		top: 315px;
   		}
 		
   .item3 {
 	  position: absolute;
 	  width: 60%;
-	  top: 1200px;
+	  top: 1050px;
 	  left: 0px;
 	  }
+	  
+
 	  
 .caption-background {
  	height: fit;
@@ -537,7 +541,10 @@
  	text-align: left;
 	
 	}
- 		
+.spin {
+	
+	top: 0em;
+	}
   	
   }
   @-webkit-keyframes spinnerRotate
@@ -558,14 +565,14 @@
  }
  #spin{
 	position: absolute;
-	top: 1600px;
+	top: 135em;
 	left: -1px;
 	right: 10%;
 	width: 100%;
 	max-width: 500px;
 	height: auto;
 	z-index: 0;
-	position: absolute;
+
 	-webkit-animation-name: spinnerRotate;
 	-webkit-animation-duration: 5s;
 	-webkit-animation-iteration-count: infinite;
