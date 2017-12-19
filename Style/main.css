@@ -201,13 +201,13 @@ main.loading * {
 
 #blurred-image-container {
 
-	width:fit; 
+	width:fill; 
 	height: 100%;
 	display:block;
     padding:0;
     position: fixed;
     top:0;
-    bottom:0%;
+    bottom:-20%;
     left:0%;
     right:0%;
     z-index:0;
