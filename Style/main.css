@@ -98,13 +98,13 @@ textarea {
    ========================================================================== */
 
 body {
-    padding: 20px;
+    
     background: #000;
     text-align: center;
     font-family: "Open Sans", sans-serif;
     font-size: 12px;
     color: #fff;
-	max-width: 970px;
+	
 	magin: 0 0;
 	
 	
@@ -354,7 +354,7 @@ main.loading * {
 .grid-sizer,
 .item {
     margin-bottom: 10px;	
-    width: 100%;
+    width: 90%;
 	z-index: 90;
 }
 .item2 {
@@ -479,6 +479,7 @@ footer strong {
 	#blurred-image-container {
 
     left:-30%;
+	
 	}
 	.topnav a {
   
@@ -488,8 +489,8 @@ footer strong {
   font-size: 12px;
   }
   .container {
-    max-width: 500px;
-	width: 100%;
+    max-width: 100%;
+	position: relative;
     
 	
 }
@@ -497,6 +498,7 @@ footer strong {
 		width:100%;
 		top: 0px;
 		}
+		
 	
 }
 @-webkit-keyframes spinnerRotate
@@ -520,9 +522,9 @@ footer strong {
 	
 	position: absolute;
 	top: 113em;
-	left: .7em;
+	left: .07em;
 	right: 10%;
-	width: 100%;
+	width: 80%;
 	
 	height: auto;
 	z-index: 0; position: absolute;
