@@ -1,549 +1,555 @@
-/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
-
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
-
-html,
-button,
-input,
-select,
-textarea {
-    color: #222;
-}
-
-html {
-    font-size: 1em;
-    line-height: 1.4;
-}
-
-/*
- * Remove text-shadow in selection highlight: h5bp.com/i
- * These selection rule sets have to be separate.
- * Customize the background color to match your design.
- */
-
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-/*
- * A better looking default horizontal rule
- */
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
-/*
- * Remove the gap between images, videos, audio and canvas and the bottom of
- * their containers: h5bp.com/i/440
- */
-
-audio,
-canvas,
-img,
-video {
-    vertical-align: middle;
-}
-
-/*
- * Remove default fieldset styles.
- */
-
-fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
-
-/*
- * Allow only vertical resizing of textareas.
- */
-
-textarea {
-    resize: vertical;
-}
-
-/* ==========================================================================
-   Browse Happy prompt
-   ========================================================================== */
-
-.browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-body {
-    
-    background: #000;
-    text-align: center;
-    font-family: "Open Sans", sans-serif;
-    font-size: 12px;
-    color: #fff;
-	
-	magin: 0 0;
-	
-	
-}
-
-.container {
-    max-width: 1500px;
-    margin: 0 auto;
-	
-}
-
-	
-	
-	
-
-
-strong {
-    font-weight: 600;
-}
-
-a, a:visited {
-    color: #fff;
-}
-
-#topnav {
-	
-	overflow: hidden;
-	background-color: transparent;
-	position: fixed;
-	right: 0px;
-	top: 0px; 
-	width: 100%;
-	height: 5em;
-	display: none;
-	z-index: 99;
-	
-	
-	
-}
-
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 2px .8em;
-  text-decoration: none;
-  font-size: 17px;
-  height: 3em;
+ /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
  
+ /*
+  * What follows is the result of much research on cross-browser styling.
+  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+  * Kroc Camen, and the H5BP dev community and team.
+  */
+ 
+ /* ==========================================================================
+    Base styles: opinionated defaults
+    ========================================================================== */
+ 
+ html,
+ button,
+ input,
+ select,
+ textarea {
+     color: #222;
+ }
+ 
+ html {
+     font-size: 1em;
+     line-height: 1.4;
+ }
+ 
+ /*
+  * Remove text-shadow in selection highlight: h5bp.com/i
+  * These selection rule sets have to be separate.
+  * Customize the background color to match your design.
+  */
+ 
+ ::-moz-selection {
+     background: #b3d4fc;
+     text-shadow: none;
+ }
+ 
+ ::selection {
+     background: #b3d4fc;
+     text-shadow: none;
+ }
+ 
+ /*
+  * A better looking default horizontal rule
+  */
+ 
+ hr {
+     display: block;
+     height: 1px;
+     border: 0;
+     border-top: 1px solid #ccc;
+     margin: 1em 0;
+     padding: 0;
+ }
+ 
+ /*
+  * Remove the gap between images, videos, audio and canvas and the bottom of
+  * their containers: h5bp.com/i/440
+  */
+ 
+ audio,
+ canvas,
+ img,
+ video {
+     vertical-align: middle;
+ }
+ 
+ /*
+  * Remove default fieldset styles.
+  */
+ 
+ fieldset {
+     border: 0;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ /*
+  * Allow only vertical resizing of textareas.
+  */
+ 
+ textarea {
+     resize: vertical;
+ }
+ 
+ /* ==========================================================================
+    Browse Happy prompt
+    ========================================================================== */
+ 
+ .browsehappy {
+     margin: 0.2em 0;
+     background: #ccc;
+     color: #000;
+     padding: 0.2em 0;
+ }
+ 
+ /* ==========================================================================
+    Author's custom styles
+     ========================================================================== */
   
-}
+  body {
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
+     
+      background: #000;
+      text-align: center;
+      font-family: "Open Sans", sans-serif;
+      font-size: 12px;
+      color: #fff;
 
-.topnav a.active {
-  background-color: transparent;
-  color: white;
-}
-.icon {
-	width: 1em;
-	height: auto;
-	
-	}
-
-header {
-    padding-bottom: 20px;
-	z-index: -90;
-}
-
-
-h1 {
-    font-size: 30px;
-    font-weight: normal;
-    margin: 10px auto;
-	color: #000;
-	z-index: -90;
-}
-
-h2 {
-	color: #000;
-	z-index: -90;
-}
-
-main.loading {
-    background: url("../images/loading.gif") center center no-repeat;
-    min-height: 50px;
-}
-main.loading * {
-    display: none;
-}
-
-#blurred-image-container {
-
-	width:fit; 
-	height: 100%;
-	display:block;
-    padding:0;
-    position: fixed;
-    top:0;
-    bottom:0%;
-    left:0%;
-    right:0%;
-    z-index:0;
-}
-
-
-
-.img-src { 
-    position: absolute;
-	background: url(http://transfxband.com/images/ChrisFashionShoot_JGAP061crop.jpg);
-	background-size: cover;
-	top: -25%;
-	bottom: 0%;
-	left: 0%;
-	right: 0%;
-	width: 100%;
-	height: fill;
-	z-index:0;
-	
-	
-}
-
-
-.img-src.blurred-image {
-	opacity: 0;
-	
-	-webkit-filter:  brightness(0.7);
-	-ms-filter:  brightness(0.7);
-	-o-filter:  brightness(0.7);
-	filter:  blur(20px) brightness(-200.7);
-	
-	
-	
-}
-
-
-.content {
-    padding:150px 50px;
-    visibility: hidden;
-    text-align:center;
-	z-index:-5;
-}
-
-.avatar {
-    height: 4vw; 
-    width: 4vw;
-	left: 90vw;
-    border-radius: 100%;
-    border: 5px solid #fff;
+ 	
+  	margin: 0 0;
+  	
+  	
+ }
+ 
+ .container {
+     max-width: 1500px;
+     margin: 0 auto;
+ 	
+ }
+ 
+ 	
+ 	
+ 	
+ 
+ 
+ strong {
+     font-weight: 600;
+ }
+ 
+ a, a:visited {
+     color: #fff;
+ }
+ 
+ #topnav {
+ 	
+ 	overflow: hidden;
+ 	background-color: transparent;
+ 	position: fixed;
+ 	right: 0px;
+ 	top: 0px; 
+ 	width: 100%;
+ 	height: 5em;
+ 	display: none;
+ 	z-index: 99;
+ 	
+ 	
+ 	
+ }
+ 
+ .topnav a {
+   float: left;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 2px .8em;
+   text-decoration: none;
+   font-size: 17px;
+   height: 3em;
+  
    
-}
-
-.logo{
-	position: absolute;
-	z-index: 3;
-	left: 5px;
-	right: auto;
-	width: 100%;
-	height: auto;
-}
-
-.booking{
-	
-	position: absolute;
-	z-index: 3;
-	top: 195em;
-	
-	right: auto;
-	left: 60%;
-	width: 20%;
-	max-width: 300px;
-	height: auto;
-	
-	
-	}
-	
-.press{
-	position: absolute;
-	z-index: 3;
-	top: 195em;
-	width: 20%;
-	right: 70%;
-	left: auto;
-	max-width: 250px;
-	float: left;
-	bottom: 100px;
-
-	}
-.info {
-	z-index: 6;
-    width: 300px;
-    height: auto;
-    background: red;
-	max-width: 300px;
-	
-	
-	
-	
-	
-	
-}
-.pictures{
-	
-	position: absolute;
-	z-index: 1;
-	top: 75em;
-	left: 5px;
-	right: auto;
-	width: 100%;
-	height: auto;
-}
-	
-	
-.caption-background {
-	height: fit;
-    background: transparent;
-	z-index: 10;
-	font:Georgia, "Times New Roman", Times, serif;
-	color: #FFF;
-	text-align: center;
-	
-	
-
-	
-}
-.hidden {
-	
-    display: none;
-}
-
-.live{
-	position: absolute;
-	z-index: 3;
-	top: 100em;
-	left: 8em;
-	right: auto;
-	width: 10%;
-	height: auto;
-	
-	
-}
-
-
-.grid-sizer,
-.item {
-    margin-bottom: 10px;	
-    width: 90%;
-	z-index: 90;
-}
-.item2 {
-    margin-bottom: 10px;
-    width: 100%;
-	z-index: -5;
-}
-.item3 {
-    margin-bottom: 10px;
-    width: 100%;
-	
-}
-.gutter-sizer {
-   width: 2%;
-}
-.item img {
-    width: 100%;
-}
-.span-2 {
-    width: 66%;
-}
-.span-3 {
-    width: 100% !important;
-}
-.align-l {
-    text-align: left;
-}
-.span-3 h1 {
-    text-align: left; 
-    font-size: 54px;
-    font-weight: normal;
-    text-transform: uppercase;
-    color: #999;
-}
-.item h2 {
-    text-align: left; 
-    font-size: 18px;
-    font-weight: normal;
-    margin: 5px 0;
-    text-transform: uppercase;
-    color: #666;
-}
-
-.item h1 a, .item h2 a {
-    text-decoration: none;
-    color: #666;
-}
-.item h1 a:hover, .item h2 a:hover {
-    color: #aaa;
-}
-
-@charset "UTF-8";
-
-footer {
-	top: 100%;
-    padding-top: 20px;
-    font-size: 11px;
-	color: #FFF;
-	
-
-}
-footer strong {
-    font-size: 14px;
-}
-
-@media screen and (max-width: 767px) {
-    /* MOBILE */
-    .grid-sizer,
-    .item,  {
-        width: 100%;
-		top:100px;
-    }
-	.item2 {
-		width:100%;
-		top: 120px;
-		}
-    .gutter-sizer {
-       width: 2%;
-    }
-    .span-3 h1 {
-        text-align: center;
-    }
-	#blurred-image-container {
-
-    left:-20%;
-	}
-	.topnav a {
-  
-  text-align: left;
-  padding: 2px .4em;
-  
-  font-size: 12px;
-	}
-.container {
-    max-width: 767px;
+ }
+ 
+ .topnav a:hover {
+   background-color: #ddd;
+   color: black;
+ }
+ 
+ .topnav a.active {
+   background-color: transparent;
+   color: white;
+ }
+ .icon {
+ 	width: 1em;
+ 	height: auto;
+ 	
+ 	}
+ 
+ header {
+     padding-bottom: 20px;
+ 	z-index: -90;
+ }
+ 
+ 
+ h1 {
+     font-size: 30px;
+     font-weight: normal;
+     margin: 10px auto;
+ 	color: #000;
+ 	z-index: -90;
+ }
+ 
+ h2 {
+ 	color: #000;
+ 	z-index: -90;
+ }
+ 
+ main.loading {
+     background: url("../images/loading.gif") center center no-repeat;
+     min-height: 50px;
+ }
+ main.loading * {
+     display: none;
+ }
+ 
+ #blurred-image-container {
+ 
+ 	width:fill; 
+ 	height: 100%;
+ 	display:block;
+     padding:0;
+     position: fixed;
+     top:0;
+     bottom:-20%;
+     left:0%;
+     right:0%;
+     z-index:0;
+ }
+ 
+ 
+ 
+ .img-src { 
+     position: absolute;
+ 	background: url(http://transfxband.com/images/ChrisFashionShoot_JGAP061crop.jpg);
+ 	background-size: cover;
+ 	top: -25%;
+ 	bottom: 0%;
+ 	left: 0%;
+ 	right: 0%;
+ 	width: 100%;
+ 	height: fill;
+ 	z-index:0;
+ 	
+ 	
+ }
+ 
+ 
+ .img-src.blurred-image {
+ 	opacity: 0;
+ 	
+ 	-webkit-filter:  brightness(0.7);
+ 	-ms-filter:  brightness(0.7);
+ 	-o-filter:  brightness(0.7);
+ 	filter:  blur(20px) brightness(-200.7);
+ 	
+ 	
+ 	
+ }
+ 
+ 
+ .content {
+     padding:150px 50px;
+     visibility: hidden;
+     text-align:center;
+ 	z-index:-5;
+ }
+ 
+ .avatar {
+     height: 4vw; 
+     width: 4vw;
+ 	left: 90vw;
+     border-radius: 100%;
+     border: 5px solid #fff;
     
-	
-}
+ }
+ 
+ .logo{
+ 	position: absolute;
+ 	z-index: 3;
+ 	left: 5px;
+ 	right: auto;
+ 	width: 100%;
+ 	height: auto;
+ }
+ 
+ .booking{
+ 	
+ 	position: absolute;
+ 	z-index: 3;
+ 	top: 195em;
+ 	
+ 	right: auto;
+ 	left: 60%;
+ 	width: 20%;
+ 	max-width: 300px;
+ 	height: auto;
+ 	
+ 	
+ 	}
+ 	
+ .press{
+ 	position: absolute;
+ 	z-index: 3;
+ 	top: 195em;
+ 	width: 20%;
+ 	right: 70%;
+ 	left: auto;
+ 	max-width: 250px;
+ 	float: left;
+ 	bottom: 100px;
+ 
+ 	}
+ .info {
+ 	z-index: 6;
+     width: 300px;
+     height: auto;
+     background: red;
+ 	max-width: 300px;
+ 	
+ 	
+ 	
+ 	
+ 	
+ 	
+ }
+ .pictures{
+ 	
+ 	position: absolute;
+ 	z-index: 1;
+ 	top: 75em;
+ 	left: 5px;
+ 	right: auto;
+ 	width: 100%;
+ 	height: auto;
+ }
+ 	
+ 	
+ .caption-background {
+ 	height: fit;
+     background: transparent;
+ 	z-index: 10;
+ 	font:Georgia, "Times New Roman", Times, serif;
+ 	color: #FFF;
+ 	text-align: center;
+ 	
+ 	
+ 
+ 	
+ }
+ .hidden {
+ 	
+     display: none;
+ }
+ 
+ .live{
+ 	position: absolute;
+ 	z-index: 3;
+ 	top: 100em;
+ 	left: 8em;
+ 	right: auto;
+ 	width: 10%;
+ 	height: auto;
+ 	
+ 	
+ }
+ 
+ 
+  .grid-sizer,
+  .item {
+      margin-bottom: 10px;	
 
-}
-
-@media screen and (max-width: 500px) {
-    /* MOBILE */
-  
-    nav {
-        font-size: 11px;
-    }
-    nav a {
-        margin: 0 5px;
-    }
-
-    .grid-sizer,
-    .item {
-        width: 100%;
-		top: 60px;
-		
-		
-    }
-    .gutter-sizer {
-       width: 0;
-    }
-	#blurred-image-container {
-
-    left:-30%;
-	
-	}
-	.topnav a {
-  
-  text-align: left;
-  padding: 2px .4em;
-  
-  font-size: 12px;
+     width: 90%;
+  	z-index: 90;
   }
-  .container {
-    max-width: 100%;
-	position: relative;
+  .item2 {
+     margin-bottom: 10px;
+     width: 100%;
+ 	z-index: -5;
+ }
+ .item3 {
+     margin-bottom: 10px;
+     width: 100%;
+ 	
+ }
+ .gutter-sizer {
+    width: 2%;
+ }
+ .item img {
+     width: 100%;
+ }
+ .span-2 {
+     width: 66%;
+ }
+ .span-3 {
+     width: 100% !important;
+ }
+ .align-l {
+     text-align: left;
+ }
+ .span-3 h1 {
+     text-align: left; 
+     font-size: 54px;
+     font-weight: normal;
+     text-transform: uppercase;
+     color: #999;
+ }
+ .item h2 {
+     text-align: left; 
+     font-size: 18px;
+     font-weight: normal;
+     margin: 5px 0;
+     text-transform: uppercase;
+     color: #666;
+ }
+ 
+ .item h1 a, .item h2 a {
+     text-decoration: none;
+     color: #666;
+ }
+ .item h1 a:hover, .item h2 a:hover {
+     color: #aaa;
+ }
+ 
+ @charset "UTF-8";
+ 
+ footer {
+ 	top: 100%;
+     padding-top: 20px;
+     font-size: 11px;
+ 	color: #FFF;
+ 	
+ 
+ }
+ footer strong {
+     font-size: 14px;
+ }
+ 
+ @media screen and (max-width: 767px) {
+     /* MOBILE */
+     .grid-sizer,
+     .item,  {
+         width: 100%;
+ 		top:100px;
+     }
+ 	.item2 {
+ 		width:100%;
+ 		top: 120px;
+ 		}
+     .gutter-sizer {
+        width: 2%;
+     }
+     .span-3 h1 {
+         text-align: center;
+     }
+ 	#blurred-image-container {
+ 
+     left:-20%;
+ 	}
+ 	.topnav a {
+   
+   text-align: left;
+   padding: 2px .4em;
+   
+   font-size: 12px;
+ 	}
+ .container {
+     max-width: 767px;
+     
+ 	
+ }
+ 
+ }
+ 
+ @media screen and (max-width: 500px) {
+     /* MOBILE */
+   
+     nav {
+         font-size: 11px;
+     }
+     nav a {
+         margin: 0 5px;
+     }
+ 
+     .grid-sizer,
+     .item {
+         width: 100%;
+ 		top: 60px;
+ 		
+ 		
+     }
+     .gutter-sizer {
+        width: 0;
+     }
+  	#blurred-image-container {
+  
+      left:-30%;
+ 	
+  	}
+  	.topnav a {
     
-	
-}
-.item2 {
-		width:100%;
-		top: 0px;
-		}
-		
-	
-}
-@-webkit-keyframes spinnerRotate
-{
-    from{-webkit-transform:rotate(0deg);}
-    to{-webkit-transform:rotate(360deg);}
-}
+   text-align: left;
+   padding: 2px .4em;
+   
+    font-size: 12px;
+    }
+    .container {
 
-@-moz-keyframes spinnerRotate
-{
-    from{-moz-transform:rotate(0deg);}
-    to{-moz-transform:rotate(360deg);}
-}
-@-ms-keyframes spinnerRotate
-{
-    from{-ms-transform:rotate(0deg);}
-    to{-ms-transform:rotate(360deg);}
-}
-#spin{
+     max-width: 100%;
+ 	position: relative;
+      
+  	
+  }
+  .item2 {
+  		width:100%;
+  		top: 0px;
+  		}
+ 		
+  	
+  }
+  @-webkit-keyframes spinnerRotate
+ {
+     from{-webkit-transform:rotate(0deg);}
+     to{-webkit-transform:rotate(360deg);}
+ }
+ 
+ @-moz-keyframes spinnerRotate
+ {
+     from{-moz-transform:rotate(0deg);}
+     to{-moz-transform:rotate(360deg);}
+ }
+ @-ms-keyframes spinnerRotate
+ {
+     from{-ms-transform:rotate(0deg);}
+     to{-ms-transform:rotate(360deg);}
+ }
+ #spin{
+ 
+  	
+  	position: absolute;
+  	top: 113em;
 
-	
-	position: absolute;
-	top: 113em;
-	left: .07em;
-	right: 10%;
-	width: 80%;
-	
-	height: auto;
-	z-index: 0; position: absolute;
-	
-	
-	-webkit-animation-name: spinnerRotate;
-	-webkit-animation-duration: 5s;
-	-webkit-animation-iteration-count: infinite;
-	-webkit-animation-timing-function: linear;
-	-moz-animation-name: spinnerRotate;
-	-moz-animation-duration: 5s;
-	-moz-animation-iteration-count: infinite;
-	-moz-animation-timing-function: linear;
-	-ms-animation-name: spinnerRotate;
-	-ms-animation-duration: 5s;
-	-ms-animation-iteration-count: infinite;
-	-ms-animation-timing-function: linear;
-	
-}
+ 	left: .07em;
+  	right: 10%;
+
+ 	width: 80%;
+  	
+  	height: auto;
+  	z-index: 0; position: absolute;
+ 	
+ 	
+ 	-webkit-animation-name: spinnerRotate;
+ 	-webkit-animation-duration: 5s;
+ 	-webkit-animation-iteration-count: infinite;
+ 	-webkit-animation-timing-function: linear;
+ 	-moz-animation-name: spinnerRotate;
+ 	-moz-animation-duration: 5s;
+ 	-moz-animation-iteration-count: infinite;
+ 	-moz-animation-timing-function: linear;
+ 	-ms-animation-name: spinnerRotate;
+ 	-ms-animation-duration: 5s;
+ 	-ms-animation-iteration-count: infinite;
+ 	-ms-animation-timing-function: linear;
+ 	
+ }
 
 /* ==========================================================================
    Helper classes
