@@ -115,6 +115,7 @@
  .container {
      max-width: 1500px;
      margin: 0 auto;
+	 width: 90%;
  	
  }
  
@@ -473,8 +474,9 @@
  
      .grid-sizer,
      .item {
-         width: 100%;
+         width: 90%;
  		top: 60px;
+		
  		
  		
      }
@@ -503,13 +505,14 @@
   }
   .item2 {
   		width:100%;
-  		
+  		left: 2em;
   		}
 		
   .item3 {
-	  width: 80%;
-	  bottom: 100px;
-	  left:2px;
+	  position: absolute;
+	  width: 70%;
+	  top: 100px;
+	  left:12px;
 	  }
 	  
 
