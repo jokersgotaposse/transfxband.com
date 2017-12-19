@@ -370,6 +370,7 @@
      
      width: 100%;
 	 left: 20%;
+	 top: 1700px;
 	 
  	
  }
@@ -437,6 +438,12 @@
  		width:100%;
  		top: 120px;
  		}
+		
+	.item3 {
+		
+		top: 1250px;
+		left: 0px;
+		}	
      .gutter-sizer {
         width: 2%;
      }
@@ -460,6 +467,7 @@
  	
  }
  
+
  }
  
  @media screen and (max-width: 500px) {
@@ -476,6 +484,7 @@
      .item {
          width: 90%;
  		top: 60px;
+		
 		
  		
  		
@@ -511,9 +520,11 @@
   .item3 {
 	  position: absolute;
 	  width: 70%;
-	  bottom: 200px;
-	  left:12px;
+	  top: 1200px;
+	  left: 42px;
 	  }
+	  
+
 	  
 
  		
@@ -537,7 +548,7 @@
  }
  #spin{
 	position: absolute;
-	top: 113em;
+	top: 1600px;
 	left: -1px;
 	right: 10%;
 	width: 80%;
