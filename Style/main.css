@@ -450,7 +450,13 @@
      .span-3 h1 {
          text-align: center;
      }
-
+ 	#blurred-image-container {
+ 
+     left:-20%;
+ 	}
+	 .img-src.blurred-image {
+	left: -20%	 
+		 }
  	.topnav a {
    
    text-align: left;
@@ -489,9 +495,17 @@
      .gutter-sizer {
         width: 0;
      }
-
+  	#blurred-image-container {
+  
+      left:-30%;
+	  
  	
   	}
+	
+	 .img-src.blurred-image {
+	
+	left: -30%	 
+		 }
   	.topnav a {
     
    text-align: left;
