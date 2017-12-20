@@ -305,11 +305,7 @@
      height: auto;
      background: red;
  	max-width: 300px;
- 	
- 	
- 	
- 	
- 	
+
  	
  }
  .pictures{
@@ -526,7 +522,7 @@
      .grid-sizer,
      .item {
          width: 90%;
- 		top: 60px;
+ 		top: 50px;
 		
 		
  		
@@ -560,13 +556,13 @@
   .item2 {
   		width:100%;
   		left: 2em;
-		top: 315px;
+		top: 280px;
   		}
 		
   .item3 {
 	  position: absolute;
 	  width: fill;
-	  top: 1500px;
+	  top: 1350px;
 	  left: 0px;
 	  }
 	  
@@ -582,10 +578,17 @@
 	
 	}
 #spin {
-	top: 1030px;
+	top: 950px;
 	
 	}
-  	
+.info {
+ 	
+     width: 280px;
+
+ 	max-width: 280px;
+
+ 	
+ }
   }
 
 /* ==========================================================================
