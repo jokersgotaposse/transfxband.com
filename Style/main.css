@@ -424,7 +424,7 @@
  @charset "UTF-8";
  
  footer {
- 	top: 100%;
+ 	bottom: 10px;
      padding-top: 20px;
      font-size: 11px;
  	color: #FFF;
