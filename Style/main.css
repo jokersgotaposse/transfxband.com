@@ -374,6 +374,13 @@
 .item4 {
 	top: 2450px;
 	}
+	
+.item5 {
+	position: relative; 
+	top: 3200px;
+	padding-bottom: 120px;
+	}
+	
  
  .gutter-sizer {
     width: 2%;
@@ -485,6 +492,11 @@
 		top: 1250px;
 		left: 0px;
 		}	
+		
+		.item5 {
+	position: relative; 
+	top: 2600px;
+	}
      .gutter-sizer {
         width: 2%;
      }
@@ -573,7 +585,11 @@
 	
 	top: 1710px;
 	}
-	  
+
+.item5 {
+	position: relative; 
+	top: 1850px;
+	}
 .caption-background {
  	height: fit;
      background: transparent;
